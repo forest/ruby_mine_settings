@@ -16,6 +16,11 @@
         <option value="$USER_HOME$/code/jira_agile_api" />
       </list>
     </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/code/lp-web" />
+      </list>
+    </option>
     <option name="lastPath" value="$USER_HOME$/code/lp-web" />
   </component>
   <component name="Registry">
