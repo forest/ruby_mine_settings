@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="Compile CoffeeScript" showInMainMenu="false" showInEditor="true" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="coffee" />
+      <option name="PARAMETERS" value="--compile --bare --print $FilePath$" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+  <tool name="Sublime Text" description="Open file in Sublime Text" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="/opt/boxen/bin/subl3" />
+      <option name="PARAMETERS" value="-n -w -a &quot;$FileDir$&quot; &quot;$FileName$:$LineNumber$:$ColumnNumber$&quot;" />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
