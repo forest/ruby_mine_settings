@@ -7,13 +7,6 @@
     <ignored-resource url="http://www.w3.org/1998/Math/MathML" />
     <ignored-resource url="http://www.w3.org/2000/svg" />
   </component>
-  <component name="FileEditorProviderManager">
-    <option name="selectedProviders">
-      <map>
-        <entry key="com.intellij.database.editor.DatabaseTableFileEditorProvider,text-editor" value="text-editor" />
-      </map>
-    </option>
-  </component>
   <component name="RecentDirectoryProjectsManager">
     <option name="recentPaths">
       <list>
@@ -22,6 +15,11 @@
         <option value="$USER_HOME$/code/lp-web" />
         <option value="$USER_HOME$/code/tracker_api" />
         <option value="$USER_HOME$/code/jira_agile_api" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/code/high-performance-apis/rails-api/api_app" />
       </list>
     </option>
     <option name="lastPath" value="$USER_HOME$/code/high-performance-apis/rails-api/api_app" />
