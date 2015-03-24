@@ -77,6 +77,7 @@
     <option name="openPaths">
       <list>
         <option value="$USER_HOME$/code/dashofagile-app" />
+        <option value="$USER_HOME$/code/dashofagile" />
       </list>
     </option>
     <option name="lastPath" value="$USER_HOME$/code/dashofagile" />
