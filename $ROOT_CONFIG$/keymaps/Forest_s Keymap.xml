@@ -1,0 +1,61 @@
+<keymap version="1" name="Forest's Keymap" parent="TextMate">
+  <action id="ActivateMessagesToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
+  <action id="Console.TableResult.NextPage" />
+  <action id="Console.TableResult.ValuePopup">
+    <mouse-shortcut keystroke="control button2" />
+  </action>
+  <action id="DashLauncherAction">
+    <keyboard-shortcut first-keystroke="shift meta D" />
+    <keyboard-shortcut first-keystroke="shift meta H" />
+    <keyboard-shortcut first-keystroke="control H" />
+  </action>
+  <action id="EditorToggleCase">
+    <keyboard-shortcut first-keystroke="control U" />
+    <keyboard-shortcut first-keystroke="shift control U" />
+  </action>
+  <action id="GotoRelated">
+    <keyboard-shortcut first-keystroke="meta alt HOME" />
+    <keyboard-shortcut first-keystroke="shift alt N" />
+    <keyboard-shortcut first-keystroke="meta alt DOWN" />
+  </action>
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="control button2" />
+  </action>
+  <action id="RailsNavigatePopupAction">
+    <keyboard-shortcut first-keystroke="shift meta alt DOWN" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="control alt ENTER" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="control alt DOWN" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="control alt LEFT" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="control alt RIGHT" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="control alt UP" />
+  </action>
+  <action id="Tool_Compile CoffeeScript">
+    <keyboard-shortcut first-keystroke="shift control C" />
+  </action>
+  <action id="Tool_Sublime Text">
+    <keyboard-shortcut first-keystroke="shift control L" />
+  </action>
+  <action id="org.jetbrains.plugins.ruby.rails.console.RunRailsConsoleAction">
+    <keyboard-shortcut first-keystroke="control C" />
+  </action>
+  <action id="rails:generator:controller">
+    <keyboard-shortcut first-keystroke="meta alt G" second-keystroke="C" />
+  </action>
+  <action id="rails:generator:migration">
+    <keyboard-shortcut first-keystroke="meta alt G" second-keystroke="I" />
+    <keyboard-shortcut first-keystroke="shift control M" />
+  </action>
+</keymap>
