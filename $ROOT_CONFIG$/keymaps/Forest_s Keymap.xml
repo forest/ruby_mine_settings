@@ -3,12 +3,12 @@
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="meta 0" />
   </action>
+  <action id="CompareTwoFiles" />
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.ValuePopup">
     <mouse-shortcut keystroke="control button2" />
   </action>
   <action id="DashLauncherAction">
-    <keyboard-shortcut first-keystroke="shift meta D" />
     <keyboard-shortcut first-keystroke="shift meta H" />
     <keyboard-shortcut first-keystroke="control H" />
   </action>
